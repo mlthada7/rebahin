@@ -4,7 +4,7 @@ import Label from '@/Components/Login/Label'
 import { Head, Link } from '@inertiajs/react'
 import React from 'react'
 
-function Register() {
+const Register = () => {
     return (
         <>
             <Head title='Sign up' />
@@ -41,11 +41,13 @@ function Register() {
                                 </div>
                             </div>
                             <div className="grid space-y-[14px] mt-[30px]">
-                                <Button type='submit' variant='primary'>
-                                    <span className="text-base font-semibold">
-                                        Sign Up
-                                    </span>
-                                </Button>
+                                <Link href={route('prototype.dashboard')}>
+                                    <Button type='submit' variant='primary'>
+                                        <span className="text-base font-semibold">
+                                            Sign Up
+                                        </span>
+                                    </Button>
+                                </Link>
                                 <Link href={route('prototype.login')}>
                                     <Button type='button' variant='light-outline'>
                                         <span className="text-base text-white">
