@@ -8,7 +8,7 @@ function Sidebar() {
                     <img src="/images/moonton.svg" alt="" />
                 </Link>
                 <div className="links flex flex-col mt-[60px] h-full gap-[50px]">
-                    {/* <!-- Menu --> */}
+                    {/* Menu */}
                     <div>
                         <div className="text-gray-1 text-sm mb-4">Menu</div>
                         <Link href={route('prototype.dashboard')} className="side-link active">
@@ -48,9 +48,9 @@ function Sidebar() {
                             Messages (102)
                         </a>
                     </div>
-                    {/* <!-- ./Menu --> */}
+                    {/* ./Menu */}
 
-                    {/* <!-- Others --> */}
+                    {/* Others */}
                     <div>
                         <div className="text-gray-1 side-link mb-4">Others</div>
                         <Link href={route('prototype.subscriptionPlan')} className="side-link">
@@ -87,9 +87,9 @@ function Sidebar() {
                             Logout
                         </a>
                     </div>
-                    {/* <!-- ./Others --> */}
+                    {/* ./Others */}
 
-                    {/* <!-- Subscription details --> */}
+                    {/* Subscription details */}
                     <div className="mt-auto pr-[30px]">
                         <div className="p-5 bg-black rounded-[25px]">
                             <img src="/icons/ic_star-rounded.svg" alt="" />
@@ -104,7 +104,7 @@ function Sidebar() {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- ./Subscription details --> */}
+                    {/* ./Subscription Details */}
                 </div>
             </div>
         </aside>
