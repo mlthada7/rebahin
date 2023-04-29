@@ -1,9 +1,9 @@
+import React, { useEffect } from 'react'
+import Label from '@/Components/Login/Label'
+import Input from '@/Components/Login/Input'
 import InputError from '@/Components/InputError'
 import Button from '@/Components/Login/Button'
-import Input from '@/Components/Login/Input'
-import Label from '@/Components/Login/Label'
 import { Head, Link, useForm } from '@inertiajs/react'
-import React, { useEffect } from 'react'
 
 const Register = () => {
     const { data, setData, post, processing, errors, reset } = useForm({
